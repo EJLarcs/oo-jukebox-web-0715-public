@@ -7,7 +7,7 @@ languages: ruby
 
 ## Description
 
-In this lab, you'll be writing an Object Oriented Jukebox that will introduce itself to the user and ask for input.
+In this lab, you'll be writing an Object Oriented Jukebox that will introduce itself to the user and ask for input. Users should be able to ask for help, list available songs, play a song, and exit the program from the command line.
 
 ## Instructions
 
