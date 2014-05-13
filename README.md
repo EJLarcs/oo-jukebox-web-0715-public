@@ -1,6 +1,6 @@
 ---
-tags: oop 
-languages: ruby
+  tags: oop 
+  languages: ruby
   resources: 2
 ---
 
@@ -39,6 +39,7 @@ Make the tests in `spec/jukebox_spec.rb` pass. Run them by typing `rspec` on you
 ## Note
 
 Don't reinvent the wheel! Since you've already written a pretty solid non-object oriented jukebox, steal your own code!
+
 ## Resources
 * [Practical Object-Oriented Design in Ruby](http://books.flatironschool.com/books/102) - [Chapter 1: Object-Oriented Design](http://books.flatironschool.com/books/102), page 26
 * [Practical Object-Oriented Design in Ruby](http://books.flatironschool.com/books/102) - [Chapter 2: Designing Classes with a Single Responsibility 15](http://books.flatironschool.com/books/102), page 40
