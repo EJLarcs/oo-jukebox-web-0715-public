@@ -6,7 +6,9 @@ require_relative '../jukebox'
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
-  # config here
+  config.mock_with :rspec do |c|
+    c.syntax = [:should, :expect]
+  end
 end
 
 def capture_stdout(&block)
