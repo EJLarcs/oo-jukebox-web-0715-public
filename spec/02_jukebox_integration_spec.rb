@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe 'Running Jukebox' do
   let(:songs) {
     [
