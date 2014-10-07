@@ -8,11 +8,11 @@
 
 ## Description
 
-In this lab, you'll be writing an Object Oriented Jukebox that will introduce itself to the user and ask for input. Users should be able to ask for help, list available songs, play a song, and exit the program from the command line.
+In this lab, you'll be writing an Object Oriented Jukebox, with similar functionality to the first CLI Jukebox you built: it will introduce itself to the user and ask for input, and users should be able to ask for help, list available songs, play a song, and exit the program, all from the command line.
 
 ## Instructions
 
-Your `Jukebox` class should accept a list of songs upon initialization, and instances should respond to a `call` method. To run your program, all I should have to do is the following:
+Your `Jukebox` class should accept a list of songs upon initialization, and jukebox instances should respond to a `call` method. The following should start up your program:
 
 ```ruby
 songs = [
@@ -25,16 +25,16 @@ player = Jukebox.new(songs)
 player.call
 ```
 
-After that, it should wait for input and respond to the following commands:
+After that, your program should wait for input and respond to the following commands:
 
-1. `help` - Tells me all of the commands I can type.
-2. `list` - Lists all of the songs I can play.
+1. `help` - Lists all commands a user can type.
+2. `list` - Lists all of the songs.
 3. `play` - Can be called in two different ways:
-  * I can either type `play`, and then after being prompted again, type the name of a song or its number (when listed).
-  * I can type `play <song_name/song_number> and the song will play.
+  * a user can type `play`, and then after being prompted again, type the name of a song or its number (when listed).
+  * a user can type `play <song_name/song_number>` and the song will play.
 4. `exit` - This exists the program.
 
-Make the tests in `spec/jukebox_spec.rb` pass. Run them by typing `rspec` on your command line from the root of this project.
+Make the tests in `spec/jukebox_spec.rb` pass!
 
 ## Note
 
