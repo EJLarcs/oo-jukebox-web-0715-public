@@ -78,13 +78,13 @@ describe 'Running Jukebox' do
       end
 
       context 'with a song as an argument' do
-        it 'can take a song name as an argument' do
+        it 'can take a human-readable index' do
           jukebox.stub(:gets).and_return('play 1', 'exit')
           play_with_song_name_output = capture_stdout { jukebox.call }
           expect(play_with_song_name_output).to match(/Now Playing: Phoenix - 1901/)
         end
-
-        it 'can take a human-readable index' do
+        
+        it 'can take a song name as an argument' do
           jukebox.stub(:gets).and_return('play Phoenix - 1901', 'exit')
           play_with_song_num_output = capture_stdout { jukebox.call }
           expect(play_with_song_num_output).to match(/Now Playing: Phoenix - 1901/)
