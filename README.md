@@ -6,6 +6,8 @@
 
 # Object Oriented Jukebox
 
+![jukebox drawing](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/oo-labs/jukebox.jpeg)
+
 ## Description
 
 In this lab, you'll be writing an Object Oriented Jukebox, with similar functionality to the first CLI Jukebox you built: it will introduce itself to the user and ask for input, and users should be able to ask for help, list available songs, play a song, and exit the program, all from the command line.
