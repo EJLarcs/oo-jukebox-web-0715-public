@@ -44,6 +44,3 @@ After that, your program should wait for input and respond to the following comm
 
 Make the tests in `spec/jukebox_spec.rb` pass!
 
-## Resources
-* [Practical Object-Oriented Design in Ruby](http://books.flatironschool.com/books/102) - [Chapter 1: Object-Oriented Design](http://books.flatironschool.com/books/102), page 26
-* [Practical Object-Oriented Design in Ruby](http://books.flatironschool.com/books/102) - [Chapter 2: Designing Classes with a Single Responsibility 15](http://books.flatironschool.com/books/102), page 40
