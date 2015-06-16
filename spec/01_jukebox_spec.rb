@@ -86,6 +86,12 @@ describe 'Jukebox' do
         play_no_args_output = capture_stdout { jukebox.play }
         expect(play_no_args_output).to match(/Now Playing: Phoenix - 1901/)
       end
+      
+      it 'also accepts a song name' do
+        jukebox.stub(:gets).and_return("Phoenix - 1901")
+        play_no_args_output = capture_stdout { jukebox.play }
+        expect(play_no_args_output).to match(/Now Playing: Phoenix - 1901/)
+      end
     end
 
     context 'when given a song as an additional argument' do
