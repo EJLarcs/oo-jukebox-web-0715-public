@@ -1,8 +1,4 @@
----
-  tags: oop 
-  languages: ruby
-  resources: 2
----
+
 
 # Object Oriented Jukebox
 
